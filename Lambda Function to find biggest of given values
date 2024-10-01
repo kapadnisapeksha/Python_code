@@ -1,0 +1,5 @@
+# Q. Lambda Function to find biggest of given values.
+x=int(input("Enter  the first number:"))
+y=int(input("Enter the second number:"))
+lamfun=(lambda x,y:x if x>y else y)
+print("Biggest number is:",lamfun(x,y))  # Output: Biggest number is:
